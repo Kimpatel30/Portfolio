@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fccacc5ec0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Kim-designstyle-tools-m.png" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id = "demo" class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i id = "demo1" class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BTech Undergraduate</p>
+                <h1>Hi, I'm <span>Kim</span> Patel</h1>
+            </div> 
+        </div>
+    </div>
+    <div id="About"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="kim2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A Hardworking Undergraduate pursuing BTech in Electronics And Communications.
+                    Looking for a challenging career which will demand the best of my professional ability in terms of technical and analytical skills, and helps me in enhancing my current skill and knowledge. 
+                </p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Programming languages</span><br>Java, C++, Python, SQL</li>
+                    <li><span>Front-end Web development</span><br>HTML, CSS, JavaScript</li>
+                    <li><span>Database</span><br>MySql</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>March-2023 to May-2023</span><br>Tech recruiter intern at WorkFall</li>
+                    <li><span>Jan-2023 to Feb-2023</span><br>Front-end Web development internship (Suven consultants & technology Pvt Ltd.)</li>
+                    <li><span>March-2022 to May-2022</span><br>AICTE AI-ML Virtual internship</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-Present</span><br>BTech from Global Engineering College</li>
+                    <li><span>2019-2020</span><br>Std 10th from Maharishi Vidya Mandir</li>
+                    <li><span>2017-2018</span><br>Std 10th from Maharishi Vidya Mandir</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design, user interface design, authoring, including standardised code and proprietary software.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design"target="_main">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>AI ML</h2>
+                    <p>AI/ML—short for artificial intelligence (AI) and machine learning (ML)—represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries.</p>
+                    <a href="https://www.redhat.com/en/blog/what-aiml-and-why-does-it-matter-your-business"target="_main">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Java spring boot</h2>
+                    <p>Java Spring Framework is a popular, open source, enterprise-level framework for creating standalone, production-grade applications that run on the Java Virtual Machine (JVM). Java Spring Boot is a tool that makes developing web application and microservices with Spring Framework faster and easier.</p>
+                    <a href="https://www.ibm.com/topics/java-spring-boot"target="_main">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>My portfolio</h3>
+                        <p>My own portfolio which contains almost everything about me, my skills, my education as well as my experience. Created using frontend development skills. </p>
+                            <a href="https://kimpatel30.github.io/Portfolio/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Dictionary application </h3>
+                        <p>This app helps you to find the correct meaning of any word. </p>
+                            <a href="https://kimpatel30.github.io/Dictionary-App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Quiz application</h3>
+                        <p>This app can be used for organizing various quizzes. Created using Java.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kimpatel99272@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +918889609117</p>
+                    <div class="social-icons">
+                        <a href="profile url"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kim-patel-5a5959235"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Kim's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©. Made with <i class="fa-solid fa-heart"></i> by Kim</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzEelWtszqGS_komKKCDW6P8xE-TnT6KfS2ZPXppGXCOHPrJqFYjhazeICfwjwNGocM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <!-- <script>
+        document.getElementById('demo').style.display='none';
+        // document.getElementById('demo1').style.display='none';
+      </script> -->
+</body>
+</html>
